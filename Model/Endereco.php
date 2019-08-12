@@ -1,6 +1,9 @@
 <?php 
 
+require_once("Usuario.php");
+
 class Endereco {
+
     private $cod;
     private $rua;
     private $numero;
@@ -10,6 +13,11 @@ class Endereco {
     private $complemento;
     private $cep;
     private $usuario;
+
+    public function __construct()
+    {
+        $this->usuario = new Usuario();
+    }
     
     public function setCod($cod)
     {
