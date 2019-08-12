@@ -1,4 +1,6 @@
 <?php 
+require_once("Usuario.php");
+require_once("Categoria.php");
 
 class Classificado {
 
@@ -12,6 +14,12 @@ class Classificado {
     private $perfil;
     private $categoria;
     private $usuario;
+
+    public function __construct()
+    {
+        $this->usuario = new Usuario();
+        $this->categoria = new Categoria();
+    }
     
     public function setCod($cod)
     {
