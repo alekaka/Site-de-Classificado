@@ -11,6 +11,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        
+        <div id="dvPainel" class="centralizada">
+            <div class="row">
+                <div class=""></div>    
+            </div>
+        </div>
     </body>
 </html>
