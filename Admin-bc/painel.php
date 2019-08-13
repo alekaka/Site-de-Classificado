@@ -13,7 +13,9 @@
     <body>
         <div id="dvPainel" class="centralizada">
             <div class="row">
-                <div class=""></div>    
+                <div class="col-lg-12">
+                    <img src="../img/logoFundoClaro.png" alt="Logo Brasil Classificados" />
+                </div>    
             </div>
         </div>
     </body>
