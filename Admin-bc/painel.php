@@ -8,6 +8,7 @@
         <script src="../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link rel="shortout icon" href="../img/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         
