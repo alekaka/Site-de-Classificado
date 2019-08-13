@@ -33,6 +33,10 @@ ul {
     text-align: justify;
 }
 
+.clear {
+    clear: both;
+}
+
 /*ID*/
 #dvPainel {
     width: 100%;
@@ -64,4 +68,13 @@ ul {
 
 #dvLogoTopo img {
     padding: 5px;
+}
+
+#dvConteudo {
+    margin: 30px;
+}
+
+#dvRodape {
+    background-color: #FFF;
+    border-top: 3px solid #EEE;
 }

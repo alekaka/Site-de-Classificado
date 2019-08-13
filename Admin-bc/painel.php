@@ -20,17 +20,38 @@
                     <div id="dvMenuTopo" class="alignCenter">
                         <ul id="ulMenu">
                             <li><a href="painel.php">Início</a></li>
-                            <li><a href="">Usuário</a></li>
-                            <li><a href="">Classificados</a></li>
-                            <li><a href="">Categoria</a></li>
-                            <li><a href="">Contato</a></li>
-                            <li><a href="">Sair</a></li>
+                            <li><a href="?pagina=usuario">Usuário</a></li>
+                            <li><a href="?pagina=classificado">Classificados</a></li>
+                            <li><a href="?pagina=categoria">Categoria</a></li>
+                            <li><a href="?pagina=contato">Contato</a></li>
+                            <li><a href="?pagina=sair">Sair</a></li>
                         </ul>
                     </div>
+                    <div class="clear"></div>
                 </div> 
                 <br />
                 <div class="row">
+                    <div class="col-lg-12" id="dvConteudo">
+                        <?php 
+                            require_once("../Util/RequestPage.php")
+                        ?>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div id="dvRodape" class="col-lg-12">
+            <div class="centralizada">
+                <div class="col-lg-6 col-xs-12">
+                    <p>&copy; Brasil Classificados - Todos os Direitos Reservados</p>
+                </div>
 
+                <div class="col-lg-6 col-xs-12">
+                    <a href="?pagina=categoria">Facebook</a><br />
+                    <a href="?pagina=categoria">Twitter</a><br />
+                    <a href="?pagina=categoria">Youtube</a><br />
+                    <a href="?pagina=categoria">Instagram</a>
                 </div>
             </div>
         </div>
