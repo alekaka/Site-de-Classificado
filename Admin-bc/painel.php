@@ -14,8 +14,24 @@
         <div id="dvPainel" class="centralizada">
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="../img/logoFundoClaro.png" alt="Logo Brasil Classificados" />
-                </div>    
+                    <div id="dvlogoTopo" class="alignCenter">
+                        <a href="painel.php"><img src="../img/logoFundoClaro.png" alt="Logo Brasil Classificados" /></a>
+                    </div>
+                    <div id="dvMenuTopo" class="alignCenter">
+                        <ul id="ulMenu">
+                            <li><a href="painel.php">Início</a></li>
+                            <li><a href="">Usuário</a></li>
+                            <li><a href="">Classificados</a></li>
+                            <li><a href="">Categoria</a></li>
+                            <li><a href="">Contato</a></li>
+                            <li><a href="">Sair</a></li>
+                        </ul>
+                    </div>
+                </div> 
+                <br />
+                <div class="row">
+
+                </div>
             </div>
         </div>
     </body>
